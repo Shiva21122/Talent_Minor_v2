@@ -1,0 +1,30 @@
+# Core
+pandas
+python-dotenv
+
+# Database (Azure SQL) - also needs the Microsoft "ODBC Driver 17 for SQL Server"
+pyodbc
+
+# Document parsing
+python-docx
+PyMuPDF
+pdfplumber
+
+# NLP and matching (used by current code)
+nltk
+rapidfuzz
+fuzzywuzzy
+
+# App
+streamlit
+
+# Dev / testing
+pytest
+
+# Listed in v1 requirements but NOT imported by the current code.
+# Keep commented until an improvement actually uses them:
+# spacy
+# sentence-transformers
+# tqdm
+# regex
+# streamlit-autorefresh
